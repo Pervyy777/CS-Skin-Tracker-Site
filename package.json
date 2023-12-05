@@ -1,0 +1,30 @@
+{
+  "name": "cs-skin-tracker-site",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "description": "CS Skin Tracker Site",
+  "author": {
+    "name": ""
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cookie-parser": "^1.4.0",
+    "debug": "^2.2.0",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0",
+    "next": "^14.0.3",
+    "pug": "^3.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "serve-favicon": "^2.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.21.0"
+  },
+  "eslintConfig": {}
+}
