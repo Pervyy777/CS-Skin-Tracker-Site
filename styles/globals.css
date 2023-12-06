@@ -1,0 +1,14 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  #__next {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  main {
+    flex: 1 0 auto; /* Ensures that main content takes up space */
+  }

@@ -1,10 +1,11 @@
+
 .container {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    background-color: #111; /* Темный фон */
+
+    background-color: #111;
   }
   
   .main {
@@ -16,7 +17,10 @@
   }
   
   .title {
-    color: #fcd34d; /* Желтый цвет текста */
+    color: #e6fcd9; 
     font-size: 40px;
     text-align: center;
+  }
+  .text {
+    color: white; 
   }
