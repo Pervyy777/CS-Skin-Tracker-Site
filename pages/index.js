@@ -1,20 +1,18 @@
-import Head from 'next/head';
+import Layout from '../components/Layout';
 import styles from '../styles/Home.module.css';
-
-export default function Home() {
+const Home = () => {
   return (
     <div className={styles.container}>
-      <Head>
-        <title>Coming Soon</title>
-        <meta name="description" content="We'll be here soon" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          We'll be here soon
-        </h1>
-      </main>
+    <Layout>
+        <main className={styles.main}>
+            <h1 className={styles.title}>
+                We'll be here soon
+            </h1>
+        </main>
+        
+    </Layout>
     </div>
   )
 }
+
+export default Home;
