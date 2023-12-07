@@ -6,10 +6,6 @@ const Footer = () => {
         <footer className={styles.footer}>
             <div className={styles.footerContent}>
                 <div className={styles.footerSection}>
-                    <h4>About Us</h4>
-                    <p>Information about company or website.</p>
-                </div>
-                <div className={styles.footerSection}>
                     <h4>Contact Info</h4>
                     <p>Tg: <Link href="https://t.me/Werds0777" target="_blank">@Werds0777</Link></p>
                     <p>Email: werds0777@gmail.com</p>
