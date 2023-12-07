@@ -1,26 +1,9 @@
-
-.container {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    background-color: #111;
-  }
   
-  .main {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .title {
-    color: #e6fcd9; 
-    font-size: 40px;
-    text-align: center;
-  }
-  .text {
-    color: white; 
-  }
+.title {
+  color: #e6fcd9; 
+  font-size: 40px;
+  text-align: center;
+}
+.text {
+  color: white; 
+}
