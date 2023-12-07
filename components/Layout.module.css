@@ -5,7 +5,7 @@
 }
 
 .main {
-  min-height: 50vh;
+  min-height: 100vh;
   flex-grow: 1; /* Ensures it takes up available space */
   display: flex;
   flex-direction: column;

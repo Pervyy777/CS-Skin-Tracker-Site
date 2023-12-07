@@ -22,6 +22,9 @@ const NavBar = () => {
                 </Link>
             </div>
             <ul className={styles.navItems}>
+                <li className={styles.navItem}>
+                    <Link href="/">Home</Link>
+                </li>
                 <li 
                     className={styles.navItem} 
                     onMouseEnter={() => setIsAboutHovered(true)}
@@ -35,12 +38,6 @@ const NavBar = () => {
                             {/* Другие ссылки */}
                         </div>
                     )}
-                </li>
-                <li className={styles.navItem}>
-                    <Link href="/">Home</Link>
-                </li>
-                <li className={styles.navItem}>
-                    <Link href="/about">About</Link>
                 </li>
                 <li className={styles.navItem}>
                     <Link href="/contact">Contact</Link>
