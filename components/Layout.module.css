@@ -1,16 +1,14 @@
 .container {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #111;
+}
 
-    background-color: #111;
-  }
-    
-  .main {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+.main {
+  min-height: 50vh;
+  flex-grow: 1; /* Ensures it takes up available space */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
