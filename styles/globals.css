@@ -1,8 +1,11 @@
 html, body {
     height: 100%;
     margin: 0;
-    background: #333;
+    background: #222;
   }
+  body {
+    padding-top: 70px; /* Высота вашего навбара */
+}
   
   #__next {
     display: flex;
